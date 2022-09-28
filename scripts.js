@@ -1,0 +1,1 @@
+alert("Boa noite. Agora estamos utilizando um arquivo externo");

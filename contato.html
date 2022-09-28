@@ -1,0 +1,88 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+ <head>
+     <meta charset="utf-8">
+     <title>Super Mario Bros</title>
+     <script type="text/javascript">
+         function clique_botao() {
+             alert("seja bem vindo!");
+         }
+     </script>
+ </head>
+  <body>
+      <!-- <p id="dem"></p>
+      <script>
+          document.getAnimationsByIld("dem").innerHTML = "Sua segunda pagina de javascript";
+      </script>
+<button onclick="clique_botao()">
+    Clique aqui
+</button>
+    </script> -->
+    <!-- <p ondblclick="lari_clique()">Clique duas vezes nesse parágrafo</p>
+    <p id="dem"></p>
+    <script>
+        function lari_clique() {
+            document.getElementById("dem").innerHTML = "Hello World";
+        }
+    </script> -->
+    <!-- <p>Um novo exemplo de como implementar o "ondblclick</p>
+    <p id="dem" ondblclick="myFunction()">Clique duas vezes aqui </p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("dem").innerHTML = "Ops, clicou duas vezes aqui";
+        }
+    </script> -->
+    <!-- <p id="myp" onmousedown="mouseDown()" onmouseup="mouseUp()">
+        Clique neste texto e mantenha o clique pressionado. Repare que o texto mudará da cor PRETO para VERMELHO.<br>
+        Ao soltar o clique, o texto ficará na cor AZUL;
+    </p>
+    <script>
+        function mouseDown () {
+document.getElementById("myp").style.color = "red";
+        }
+        function mouseUp () {
+            document.getElementById("myp").style.color = "blue";
+        }
+    </script> -->
+    <!-- <h1>Meu novo javascript</h1>
+    <p id="myp2">Mudando as propriedades de fonte via JS</p>
+        <button type="button" onclick="minhaFuncao()">Clique aqui</button>
+    <script>
+        function minhaFuncao() {
+            document.getElementById("myp2").style.fontSize = "50px";
+            document.getElementById("myp2").style.color = "red";
+            document.getElementById("myp2").style.backgroundColor = "yellow";
+        }
+    </script> -->
+    <form name="meu_form">
+    <center><h1>Entre com os números a serem somados</h1></center>
+        <center><p>
+            <label for="num1">Número 1: </label>
+            <input type="text" id="num1" placeholder="Número 1" name="num1"/>
+        </p>
+        <p>
+            <label for="num1">Número 2: </label>
+            <input type="text" id="num2" placeholder="Número 2" name="num2"/>
+        </p>
+           <center><p>
+            <input type="button" value="Calcular" onclick="calculadora()"/>
+           </center></p>
+        <p>
+            <label for="resultado">Resultado: </label>
+            <input type="text" id="result" placeholder="resultado" name="resultado"/>
+        </center></p>
+     
+        <script>
+            function calculadora() { 
+                document.getElementById("result").value = parseFloat(document.getElementById("num1").value) + 
+                parseFloat(document.getElementById("num2").value);
+
+                document.getElementById("result").style.color = "red"
+                document.getElementById("result").style.backgroundColor = "yellow"
+            }
+        </script>
+    </form>
+
+</body>
+</html>
